@@ -3,7 +3,7 @@ class Account {
     String accountHolderName;
     double balance;
     void deposit(double amount) {
-        balance += amount;
+        balance += amount; //baalance = balance + amount  
         System.out.println("Deposited"+ amount + "in :" + accountHolderName + "account. New Balance is :" + balance);
     }
 }
