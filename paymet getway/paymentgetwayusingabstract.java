@@ -94,10 +94,8 @@ public class paymentgetwayusingabstract {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Select Payment Method:");
-        System.out.println("1. Credit Card");
-        System.out.println("2. UPI");
-        System.out.println("3. Net Banking");
+     
+        System.out.println("select payment Method : 1.Credit card 2. UPi 3. Net banking");
 
         System.out.print("Enter your choice: ");
         int choice = sc.nextInt();
