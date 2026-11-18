@@ -39,7 +39,7 @@ class encapsulationexample {
     public static void main(String[] args) {
 
         encapsulationexample obj =
-                new encapsulationexample("Mansur", 5000);
+        new encapsulationexample("Mansur", 5000);
 
         System.out.println("Account Holder: " + obj.getAccountHolderName());
         System.out.println("Balance: " + obj.getBalance());
