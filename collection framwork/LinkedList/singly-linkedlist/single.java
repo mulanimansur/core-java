@@ -11,7 +11,7 @@ public class single {
         }
     }
 
-    private Node head;
+     Node head;
 
     // Step 2: Insert at End
     public void insertAtEnd(int data) {
