@@ -16,15 +16,15 @@ public class HashSetAllMethodsDemo {
 
         System.out.println("After add(): " + set);
 
-        // // 3. size()
-        // System.out.println("Size: " + set.size());
+        // 3. size()
+        System.out.println("Size: " + set.size());
 
         // // 4. contains()
-        // System.out.println("Contains Java? " + set.contains("Java"));
+        System.out.println("Contains Java? " + set.contains("Java"));
 
         // // 5. remove()
-        // set.remove("C#");
-        // System.out.println("After remove(): " + set);
+        set.remove("C#");
+        System.out.println("After remove(): " + set);
 
         // // 6. isEmpty()
         // System.out.println("Is Empty? " + set.isEmpty());
